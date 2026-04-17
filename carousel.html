@@ -29,6 +29,13 @@
             bottom: 20px;
         }
         
+        h2 {
+            color: rgb(0, 0, 0);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    
+
         .featurette-image {
             width: 100%;
             height: 400px;
@@ -41,20 +48,10 @@
     <!-- Navbar simplificada -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Carousel</a>
+            <a class="navbar-brand" href="index.html">← volver</a>            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -81,12 +78,12 @@
                         Opción 2: Etiqueta img (recomendada)
                         <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
                     -->
-                    <div style="height: 500px; background-color: #333;"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_7721.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                            <h1>Mi hobbie</h1>
+                            <p>Me gusta hacer voley en el club USAR de Rosario</p>
+                            <a class="btn btn-lg btn-primary" href="#voley">Mas info</a>
                         </div>
                     </div>
                 </div>
@@ -94,12 +91,12 @@
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <!-- IMAGEN 2 -->
-                    <div style="height: 500px; background-color: #555;"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_7725.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                            <h1>Mi emprendimiento</h1>
+                            <p>Aprovechando mi pasión por la cocina me hice mi propio emprendimiento de cookies</p>
+                            <p><a class="btn btn-lg btn-primary" href="#sunkies">Mas info</a></p>
                         </div>
                     </div>
                 </div>
@@ -107,12 +104,12 @@
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <!-- IMAGEN 3 -->
-                    <div style="height: 500px; background-color: #777;"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_7723.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                            <h1>Mis amigas</h1>
+                            <p>Te cuento un poco sobre mis amigas</p>
+                            <p><a class="btn btn-lg btn-primary" href="#amigas">Mas info</a></p>
                         </div>
                     </div>
                 </div>
@@ -128,75 +125,73 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
+                    
+        <h2 class="fw-normal mt-3">Mis viajes favoritos</h2>
         <!-- Marketing / Tarjetas circulares -->
         <div class="container marketing py-5">
             <div class="row text-center">
                 <div class="col-lg-4 mb-4">
+
                     <!-- 
                         === IMAGEN 4: Círculo 1 ===
                         <img src="https://picsum.photos/140/140?random=4" class="rounded-circle mb-3" width="140" height="140" alt="...">
                     -->
-                    <div class="rounded-circle bg-secondary mx-auto" style="width: 140px; height: 140px;"></div>
-                    <h2 class="fw-normal mt-3">Heading</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/83/fb/29.jpg" class="img-fluid rounded-3" alt="voley">
+                    <h2 class="fw-normal mt-3">Suiza</h2>
+                    <p>Viaje a suiza en 2023, mas especificamente a Zurich, es una ciudad muy linda, moderna y limpia. Una parte que me gusto mucho del viaje fue el museo de lindt, el que se muestra en la foto. </p>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <!-- IMAGEN 5: Círculo 2 -->
-                    <div class="rounded-circle bg-secondary mx-auto" style="width: 140px; height: 140px;"></div>
-                    <h2 class="fw-normal mt-3">Heading</h2>
-                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <img src="https://www.cinqueterre.eu.com/images/stories/web/venezia/venezia2_big.jpg" class="img-fluid rounded-3" alt="venecia">
+                    <h2 class="fw-normal mt-3">Italia</h2>
+                    <p>Fui a italia en 2023, a Venecia, Florencia y Roma, el que mas me gusto fue Venecia porque vi vistas y atardeceres hermosos como el que muestro aca.</p>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <!-- IMAGEN 6: Círculo 3 -->
-                    <div class="rounded-circle bg-secondary mx-auto" style="width: 140px; height: 140px;"></div>
-                    <h2 class="fw-normal mt-3">Heading</h2>
-                    <p>And lastly this, the third column of representative placeholder content.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
+                    <img src="https://media.admagazine.com/photos/61e5acc706c10ae95c71b902/16:9/w_1600,c_limit/New-York-skyline.jpg" class="img-fluid rounded-3" alt="nyc">
+                    <h2 class="fw-normal mt-3">Estados Unidos</h2>
+                    <p>Viaje a Estados Unidos en 2025, especificamente a nueva york, orlando y miami. Nueva york me parecio una ciudad muy moderna y hermosa, con vistas impresionantes, orlando me sorprendio con sus parques y miami con sus playas.</p>                </div>
             </div>
 
             <!-- FEATURETTES / Artículos destacados -->
             <hr class="featurette-divider my-5">
             
             <!-- Featurette 1 -->
-            <div class="row featurette align-items-center mb-5">
+            <div id="voley" class="row featurette align-items-center mb-5">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">Voley, <span class="text-muted">mi hobbie</span></h2>
+                    <p class="lead">Hago voley en el club USAR desde 2019, lo hago los lunes, miercoles, viernes y los domingos tengo partidos. Lo hago con amigas de mi edad, mas chicas y mas grandes, siempre me saca de mis pensamientos. Suelo tener las piernas lastimadas porque soy libero, uso la camiseta numero 3.</p>
                 </div>
                 <div class="col-md-5">
                     <!-- 
                         === IMAGEN 7: Featurette 1 ===
                         <img src="https://picsum.photos/500/400?random=7" class="img-fluid rounded-3" alt="...">
                     -->
-                    <div class="bg-secondary featurette-image"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_7720.jpeg" class="img-fluid rounded-3" alt="voley">
                 </div>
             </div>
 
             <!-- Featurette 2 (imagen a la izquierda) -->
-            <div class="row featurette align-items-center mb-5">
+            <div id="sunkies" class="row featurette align-items-center mb-5">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">Sunkies,  <span class="text-muted">mi emprendimiento</span></h2>
+                    <p class="lead">En septiembre de 2025 aproveche mi gran aor por la cocina y me cree mi propio emprendimiento de cookies, las vendo a traves de instagram, entrego los lunes y viernes y cocino los domingos y jueves, me encanta la cocina y mas si es algo dulce, tengo 5 gustos y cada semana saco alguuno especial nuevo.</p>
                 </div>
-                <div class="col-md-5 order-md-1">
+                <div class="col-md-5 order-md-1"> 
                     <!-- IMAGEN 8: Featurette 2 -->
-                    <div class="bg-secondary featurette-image"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_5061.jpeg" class="img-fluid rounded-3" alt="cookies">
                 </div>
             </div>
 
             <!-- Featurette 3 -->
-            <div class="row featurette align-items-center mb-5">
+            <div id="amigas" class="row featurette align-items-center mb-5">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">And yes, this is the last block of representative placeholder content. Your content.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">Las de siempre, <span class="text-muted">mis amigas</span></h2>
+                    <p class="lead">En esta foto se ven mis amigas de la escuela, son amigas o que commparto mi vida desde que tengo dos años o que entraron en secundaria, aunque algunas de ellas actualmente se cambiaron de escuela el vinculo sigue siendo el mismo, aparte de ellas tengo amigas del barrio donde vivo y de otras actividades por afuera de la escuela.</p>
                 </div>
                 <div class="col-md-5">
                     <!-- IMAGEN 9: Featurette 3 -->
-                    <div class="bg-secondary featurette-image"></div>
+                    <img src="file:///C:/Users/Alumno/Downloads/IMG_7724.jpeg" class="img-fluid rounded-3" alt="amigas">
                 </div>
             </div>
 
@@ -206,7 +201,6 @@
         <!-- FOOTER simplificado -->
         <footer class="container py-4">
             <p class="float-end"><a href="#" class="text-decoration-none">Back to top</a></p>
-            <p>&copy; 2017–2025 Company, Inc. &middot; <a href="#" class="text-decoration-none">Privacy</a> &middot; <a href="#" class="text-decoration-none">Terms</a></p>
         </footer>
     </main>
 
