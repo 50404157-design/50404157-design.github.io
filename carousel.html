@@ -28,6 +28,15 @@
             padding: 20px;
             bottom: 20px;
         }
+
+        .imagen-horizontal {
+          width: 100%;
+          height: 250px;       /* altura fija tipo las otras */
+          object-fit: cover;   /* recorta y mantiene proporción */
+          object-position: center; /* muestra el centro */
+        }
+
+
         
         h2 {
             color: rgb(0, 0, 0);
@@ -133,7 +142,7 @@
 
                     <!-- 
                     -->
-                    <img src="imagenes/suiza.jpg.png" class="img-fluid rounded-3" alt="voley"  width="100">
+                    <img src="imagenes/suiza.jpg.png" class="img-fluid rounded-3 imagen-horizontal" alt="voley">
                     <h2 class="fw-normal mt-3">Suiza</h2>
                     <p>Viaje a suiza en 2023, mas especificamente a Zurich, es una ciudad muy linda, moderna y limpia. Una parte que me gusto mucho del viaje fue el museo de lindt, el que se muestra en la foto. </p>
                 </div>
@@ -173,7 +182,7 @@
                 </div>
                 <div class="col-md-5 order-md-1"> 
                     <!-- IMAGEN 8: Featurette 2 -->
-                    <img src="imagenes/cookies.jpg" alt="cookies" width="300">
+                    <img src="imagenes/cookiessunkies.jpg.jpeg" alt="cookies" width="300">
                 </div>
             </div>
 
